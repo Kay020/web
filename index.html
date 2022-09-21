@@ -7,60 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Casamento</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
-<body>
+<body background="img/imagem07.jpg">
 
-    <nav class="navbar navbar-expand-lg  pesquisa">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <nav class="navbar navbar-expand-lg text-danger pesquisa ">
+        <button class="navbar-toggler text-white " type="button" data-toggle="collapse"
+            data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+            aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse text-danger" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto text-white">
                 <li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Lista de Casamento<span class="sr-only">(página atual)</span></a>
+                <li class="nav-item active text-danger">
+                    <a class="nav-link text-white" href="#">Lista de Casamento<span class="sr-only">(página
+                            atual)</span></a>
                 </li>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Planos<span class="sr-only">(página atual)</span></a>
+                <li class="nav-item active text-danger">
+                    <a class="nav-link text-white" href="#">Planos<span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-black" href="#">Revista</a>
+                    <a class="nav-link text-white" href="#">Revista</a>
                 </li>
                 <li class="nav-item sobre">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Sobre
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Vantagens</a>
+                        <a class="dropdown-item" href="#">Depoimentos</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item" href="#">Exemplos Reais</a>
                     </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar Casal</button>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar Casal</button>
             </form>
         </div>
     </nav>
-    <ul class="nav justify-content-center cor text-white">
-        <li class="nav-item">
-            <a class="nav-link active text-black" href="#">Nossa História</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Destaques</a>
-        </li>
-        </li>
-    </ul>
+    <nav class="">
+        <ul class="nav justify-content-center cor text-body">
+            <li class="nav-item">
+                <a class="nav-link active text-black text-white" href="#">Nossa História</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Destaques</a>
+            </li>
+            </li>
+        </ul>
+    </nav>
 
+    <br>
 
     <div class="container-fluid">
 
@@ -75,29 +79,127 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="img/imagem02.jpg" alt="" class="foto" width="400px" height="400px">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/imagem10.png" alt="Primeiro Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/imagem02.jpg" alt="Segundo Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/imagem18.jpg" alt="Terceiro Slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+
+    <div class="container-fluid text-center">
+
         <div class="row">
+
+            <div class="col-md-6">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/imagem01.jpg" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/imagem13.jpeg" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/imagem14.jpg" alt="Terceiro Slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+            </div>
+
             <div class="col-md-6">
                 <h2 class="espaçamento">O que nos move</h2>
                 <h5 class="texto">Utilizar a tecnologia para contribuir com uma sociedade melhor, essa mudança de
                     comportamento tem
                     como base a família, que começa com o casamento. Por sabermos a importância deste momento, estamos
                     comprometidos em torná-lo impecável.</h5>
-            </div>
-            <div class="col-md-6">
-                <img src="img/imagem01.jpg" alt="" class="teste" width="380px" height="380px">
 
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <h1></h1>
+
+    <div class="container-fluid text-center">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2 class="paragrafo">Somos apaixonados por casamento</h2>
+                <h5 class="palavra">Um time apaixonado pelo que faz e pelos valores do casamento.
+                    Afinal, é impossível ser testemunha de tanto amor e não se emocionar! Quem não chora em casamento?
+                </h5>
+
+            </div>
+
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/imagem06.jpg" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/imagem17.jpg" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/imagem16.jpg" alt="Terceiro Slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+
+            </div>
+        </div>
     </div>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>

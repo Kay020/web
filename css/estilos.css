@@ -1,33 +1,53 @@
 .pesquisa{
-    background-color: beige;
-    color: white;
+    background-color: rgb(138, 201, 253);
+    font-size: x-large;
+    
+
 }
 
 .cor{
     background-color:pink;
+    font-size: x-large;
 }
 .espaço{
     padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
   
 }
 
 .letra{
-    color: gray;
+    color: black;
+    
 }
 
 .foto{
     padding-top: 20px;
 }
 .texto{
-    color: gray;
-    padding-left: 398PX;
+    color: black;
+    padding-right: 398PX;
 }
 .espaçamento{
-    padding-top: 200px;
-    padding-left: 385px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-right:400px;
 }
 
 .teste{
     padding-top: 25px;
+}
+.paragrafo{
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 200px;
+padding-left: 390px;
 
+}
+.palavra{
+color:black;
+padding-left: 398px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
